@@ -8,7 +8,7 @@ user_last_online = {
 
 def update_online_time(username):
     """Updates the user's last online time to the current time."""
-    # Get the exact time right now
+   
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     # Save it to our database
